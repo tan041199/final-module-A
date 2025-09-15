@@ -375,3 +375,7 @@ a.active svg {
   display: flex;
   justify-content: center;
 }
+
+.okechua {
+  height: auto;
+}

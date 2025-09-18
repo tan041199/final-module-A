@@ -289,8 +289,8 @@ a.active svg {
 
 .services .container {
   text-align: center;
-  width: 1440px;
-  height: 10585px;
+  width: 1270px;
+  /* height: 10585px; */
   position: relative;
   display: inline-block;
 }
@@ -376,6 +376,165 @@ a.active svg {
   justify-content: center;
 }
 
-.okechua {
-  height: auto;
+/* footer */
+
+.footer {
+  background-color: #0e1412;
+  padding-top: 100px;
+  padding-bottom: 28px;
+}
+.footer-item {
+  min-width: 145px;
+  height: 170px;
+  flex-shrink: 0;
+}
+
+.footer-top {
+  display: flex;
+  gap: 70px;
+}
+
+.footer-item .map {
+  position: relative;
+  width: 470px;
+  height: 268px;
+  border-radius: 6px;
+
+  overflow: hidden;
+}
+
+.footer-item .btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  width: 166px;
+  height: 44px;
+  flex-shrink: 0;
+
+  background: #fff;
+
+  box-shadow: 0 8px 16px 0 rgba(14, 20, 18, 0.1);
+
+  color: var(--Dark, #0e1412);
+  /* B2 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 175% */
+}
+
+.footer-item .btn:hover {
+  cursor: pointer;
+}
+
+.footer-item .img {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer-item .heading {
+  margin-bottom: 24px;
+
+  color: var(--White, #fff);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+}
+
+.footer-item p {
+  color: #beccc7;
+  width: 237px;
+
+  /* P2 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.footer-item .list li {
+  color: #beccc7;
+
+  /* P2 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.footer-item .list li + .footer-item .list li {
+  margin-top: 16px;
+}
+
+.footer hr {
+  margin: 55px 0 28px;
+  width: 100%;
+  height: 1px;
+  background: #313d39;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .logo {
+  color: #fff;
+}
+.footer .logo p {
+  color: #fff;
+}
+
+.footer-bottom .left {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+}
+
+.footer-bottom .left .copy {
+  color: #beccc7;
+
+  /* P3 */
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.social {
+  display: flex;
+  gap: 12px;
+}
+
+.social .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  background-color: #313d39;
+}
+
+.social .item:hover {
+  background-color: #fd6038;
+  cursor: pointer;
+}
+
+.social .item .tron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

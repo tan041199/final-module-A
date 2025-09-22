@@ -538,3 +538,149 @@ a.active svg {
   align-items: center;
   justify-content: center;
 }
+
+/* features */
+
+.all {
+  padding-top: 150px;
+  padding-left: 86px;
+  display: inline-flex;
+}
+
+.img-features {
+  width: 570px;
+  height: 570px;
+  flex-shrink: 0;
+}
+
+.text {
+  padding-left: 130px;
+  padding-top: 90px;
+}
+.features {
+  color: var(--Grey, #586863);
+  /* Sub Heading */
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 6px;
+}
+
+.all .heading {
+  color: var(--Dark, #0e1412);
+  /* H2 */
+  font-family: "Roboto Slab";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  width: 469px;
+
+  margin-bottom: 18px;
+}
+
+.paragraph {
+  color: var(--Grey, #586863);
+  /* P1 */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 470px;
+  margin-bottom: 28px;
+}
+
+.paragraph + ul + li {
+  color: var(--Dark, #0e1412);
+  /* P1 Medium */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  width: 470px;
+}
+
+.paragraph + ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* da den ngoi mt */
+
+.all-5 {
+  padding-left: 135px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: inline-flex;
+}
+
+.text-5 {
+  width: 470px;
+  height: 346px;
+  flex-shrink: 0;
+
+  margin-top: 94px;
+  margin-right: 65px;
+  margin-bottom: 130px;
+}
+
+.features-5 {
+  color: var(--Grey, #586863);
+  /* Sub Heading */
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 6px;
+}
+
+.heading-5 {
+  color: var(--Dark, #0e1412);
+  /* H2 */
+  font-family: "Roboto Slab";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  width: 469px;
+  margin-bottom: 18px;
+}
+
+.paragraph-5 {
+  color: var(--Grey, #586863);
+  /* P1 */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 470px;
+  margin-bottom: 38px;
+}
+
+.btn-5 {
+  color: var(--White, #fff);
+  text-align: center;
+  /* B1 */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  display: inline-flex;
+  padding: 15px 35px;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #fd6038;
+}
+
+.daden {
+  display: inline-block;
+  margin-left: 65px;
+}
